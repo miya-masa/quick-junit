@@ -38,6 +38,7 @@ public class JUnitLaunchAction extends QuickJUnitAction {
         openInformation(action, Messages.getString("JUnitLaunchAction.notJUnitElement")); //$NON-NLS-1$
         return null;
     }
+    
 
     private IJavaElement getSelectedElement() throws JavaModelException {
         IJavaElement element = getElementOfJavaEditor();
