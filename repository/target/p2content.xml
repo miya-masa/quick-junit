@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='201409010247.junit.extensions.eclipse.quick.feature' version='1.0.0.07Q1cb78-07cISwJhISIcxN'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Quick JUnit for Java Developer'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201409010247.junit.extensions.eclipse.quick.feature' version='1.0.0.07Q1cb78-07cISwJhISIcxN'/>
+    </provides>
+    <requires size='5'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.process.feature.feature.group' range='[0.1.1.201409010247,0.1.1.201409010247]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.notifications.feature.feature.group' range='[0.2.0.201409010247,0.2.0.201409010247]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.feature.feature.group' range='[0.7.0.201409010247,0.7.0.201409010247]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.template.feature.feature.group' range='[0.1.0.201409010247,0.1.0.201409010247]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.mock.feature.feature.group' range='[0.3.0.201409010247,0.3.0.201409010247]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+  <unit id='201409010247.junit.extensions.eclipse.quick.pde.feature' version='1.0.0.07A-cb77Xl7735A3K3537AG'>
+    <properties size='2'>
+      <property name='org.eclipse.equinox.p2.name' value='Quick JUnit for Eclipse Plugin Developer'/>
+      <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='201409010247.junit.extensions.eclipse.quick.pde.feature' version='1.0.0.07A-cb77Xl7735A3K3537AG'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.pde.feature.feature.group' range='[0.6.0.201409010247,0.6.0.201409010247]'/>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+</units>

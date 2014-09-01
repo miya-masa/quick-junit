@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='junit.extensions.eclipse.quick.process.test' version='1.0.0' singleton='false'>
+    <update id='junit.extensions.eclipse.quick.process.test' range='[0.0.0,1.0.0)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='Process Test'/>
+      <property name='maven-groupId' value='junit.extensions.eclipse.quick'/>
+      <property name='maven-artifactId' value='junit.extensions.eclipse.quick.process.test'/>
+      <property name='maven-version' value='1.0.0'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.process.test' version='1.0.0'/>
+      <provided namespace='osgi.bundle' name='junit.extensions.eclipse.quick.process.test' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='junit.extensions.eclipse.quick.process' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='junit.extensions.eclipse.quick.process' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.junit' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='junit.extensions.eclipse.quick.process.test' version='1.0.0'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: junit.extensions.eclipse.quick.process.test&#xA;Bundle-Version: 1.0.0&#xA;Fragment-Host: junit.extensions.eclipse.quick.process&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

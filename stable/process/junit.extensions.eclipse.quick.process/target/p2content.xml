@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='junit.extensions.eclipse.quick.process' version='0.1.0.201409010247'>
+    <update id='junit.extensions.eclipse.quick.process' range='[0.0.0,0.1.0.201409010247)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='run process after JUnit plugin'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Quick JUnit Project'/>
+      <property name='maven-groupId' value='junit.extensions.eclipse.quick'/>
+      <property name='maven-artifactId' value='junit.extensions.eclipse.quick.process'/>
+      <property name='maven-version' value='0.1.0.qualifier'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.process' version='0.1.0.201409010247'/>
+      <provided namespace='osgi.bundle' name='junit.extensions.eclipse.quick.process' version='0.1.0.201409010247'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='3'>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.junit' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='junit.extensions.eclipse.quick.process' version='0.1.0.201409010247'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: junit.extensions.eclipse.quick.process;singleton:=true&#xA;Bundle-Version: 0.1.0.201409010247&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

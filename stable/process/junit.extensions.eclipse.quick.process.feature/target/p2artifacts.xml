@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='junit.extensions.eclipse.quick.process.feature' version='0.1.1.201409010247'>
+    <properties size='6'>
+      <property name='artifact.size' value='4527'/>
+      <property name='download.size' value='4527'/>
+      <property name='maven-groupId' value='junit.extensions.eclipse.quick'/>
+      <property name='maven-artifactId' value='junit.extensions.eclipse.quick.process.feature'/>
+      <property name='maven-version' value='0.1.1.qualifier'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

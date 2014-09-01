@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: junit.extensions.eclipse.quick.mock;singleton:=tr
+ ue
+Bundle-Name: Mockito integration
+Bundle-Version: 0.3.2.201409010247
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.ui.editors,org.eclipse.jdt.core,org.eclips
+ e.core.runtime,org.eclipse.jdt.ui,org.eclipse.jface,org.eclipse.ui,or
+ g.eclipse.ltk.core.refactoring
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Activator: junit.extensions.eclipse.quick.mock.internal.Activat
+ or
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: The Quick JUnit Plugin Project
+

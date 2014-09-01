@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='junit.extensions.eclipse.quick.notifications' version='0.2.1.201409010247'>
+    <update id='junit.extensions.eclipse.quick.notifications' range='[0.0.0,0.2.1.201409010247)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Quick JUnit Notifications Plugin'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Quick JUnit Plugin Project'/>
+      <property name='maven-groupId' value='junit.extensions.eclipse.quick'/>
+      <property name='maven-artifactId' value='junit.extensions.eclipse.quick.notifications'/>
+      <property name='maven-version' value='0.2.1.qualifier'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='junit.extensions.eclipse.quick.notifications' version='0.2.1.201409010247'/>
+      <provided namespace='osgi.bundle' name='junit.extensions.eclipse.quick.notifications' version='0.2.1.201409010247'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <requires size='7'>
+      <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.jdt.junit' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.ui' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.forms' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.notifications.core' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.mylyn.commons.notifications.ui' range='0.0.0'/>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='junit.extensions.eclipse.quick.notifications' version='0.2.1.201409010247'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: junit.extensions.eclipse.quick.notifications;singleton:=true&#xA;Bundle-Version: 0.2.1.201409010247&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>
